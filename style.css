@@ -1,43 +1,24 @@
-body{
-    background-color: #C8FFD4;
-    font-family: 'Tangerine', serif;
-    
+h3{
+    color: grey;
 }
-h1{
+
+.header1{
+    position:relative;
+}
+.headertxt1{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.header-img-class{
+    text-align: right;
+    background-color: #005aa3;
+}
+
+.orderbtn{
+    background-color: rgb(46, 178, 17);
+    border: none;
+    color: white;
     text-align: center;
-    font-size: 100px;
-}
-.navbar{
-    background-color: #FDFDBD;
-    font-size: 30px;
-}
-.logo{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-}
-.menu{
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 5rem;
-    margin-left: 5rem;
-    background-color: #EC7272;
-}
-.imag{
-    background-color: #FDFDBD;
-    padding: 5rem;
-    
-    width: 30rem;
-    
-    margin-bottom: 3rem;
-    margin-left: 5rem;
-    margin-right:10rem;
-}
-.form{
-    font-size: 2rem;
-    margin-top: 5rem;
-    margin-left: 5rem;
-}
-.number, .name{
-    font-family: 'Times New Roman', Times, serif;
 }
